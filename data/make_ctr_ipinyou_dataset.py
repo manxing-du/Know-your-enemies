@@ -7,8 +7,7 @@ np.random.seed(0)
 
 DATA_PATH_PREFIX = './make-ipinyou-data/'
 
-camps = ['1458', '2259', '2261', '2821',
-         '2997', '3358', '3386', '3427', '3476']
+camps = ['2259']
 
 
 class ftrl_proximal(object):
