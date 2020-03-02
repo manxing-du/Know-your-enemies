@@ -4,7 +4,8 @@ The code for supporting the paper under review.
 
 ## Datasets
 * `iPinYou`. 
-We removed the feature `IP` and `advertiser` in the feature list in file `make-ipinyou-data/python/mkyzx.py`
+We removed the feature `IP` and `advertiser` in the feature list in file `make-ipinyou-data/python/mkyzx.py`.
+Please replace the `mkyzx.py` file in the original `make-ipinyou-data/python/` with the one provided by us
 and followed the same data-preprocess procedure on [this page](https://github.com/wnzhang/make-ipinyou-data).
 
 ### Prepare the dataset
