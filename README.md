@@ -5,8 +5,7 @@ The code for supporting the paper under review.
 ## Datasets
 * `iPinYou`. 
 We removed the feature `IP` and `advertiser` in the feature list in file `make-ipinyou-data/python/mkyzx.py`.
-Please replace the `mkyzx.py` file in the original `make-ipinyou-data/python/` with the one provided by us
-and followed the same data-preprocess procedure on [this page](https://github.com/wnzhang/make-ipinyou-data).
+Please replace the `mkyzx.py` file in the original `make-ipinyou-data/python/` with the one provided by us, which is in the `data/make-ipinyou-you-data/python/` folder. Then follow the same data-preprocess procedure on [this page](https://github.com/wnzhang/make-ipinyou-data).
 
 ### Prepare the dataset
 * Prepare `iPinYou` dataset as described [here](https://github.com/wnzhang/make-ipinyou-data) and put `make-ipinyou-data` folder in the same parent folder as `anonymous-submission` project.
@@ -24,6 +23,10 @@ and followed the same data-preprocess procedure on [this page](https://github.co
 ----|-- market_modelling
 ----|-- master_config.py
 ```
+
+### Installing Spinning Up
+Install Spinning Up by following the instructions [here](https://spinningup.openai.com/en/latest/user/installation.html#installing-spinning-up)
+
 
 ### Train the CTR model
 Run the `make_ctr_ipinyou_dataset.py` script in the `data` folder to generate data files with CTR values for each bid log which is stored as: `train.ctr.txt`
